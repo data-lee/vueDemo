@@ -52,6 +52,9 @@
         //   storageUtil.saveTodos(value)
         // }
         handler: storageUtil.saveTodos
+        // handler: function (todos) {
+        //   window.localStorage.setItem(TODOS_KEY, JSON.stringify(todos))
+        // }
       }
     },
     components: {
